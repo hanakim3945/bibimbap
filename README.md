@@ -22,8 +22,13 @@ Currently, following bridgeOS versions are supported:
 
 → bridgeOS 9.2 22P2093
 
-→ bridgeOS 9.2 22P3060 
-
 → bridgeOS 9.3 22P3051
 
+→ bridgeOS 9.3 22P3060 
+
 → bridgeOS 9.4 22P4248
+
+
+### Known issues
+- When creating caches for new bridgeOS versions, there can be touchbar issues as we have to manually adjust the size of CacheData inside the plist. Those manually added bytes require lots of testing until we find the perfect configuration. There is probably a smarter method out there, but i didn't find it yet.
+- Remoted panics and mac reboots after a few minutes because of a watchdog timeout. Same reason as with the touchbar, the CacheData is mysterious...
