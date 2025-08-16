@@ -30,6 +30,9 @@ Currently, following bridgeOS versions are supported:
 
 → bridgeOS 9.5 22P5072
 
+→ bridgeOS 9.6 22P6083
+
+→ bridgeOS 10.0 beta 23P5342a
 
 ### Known issues
 - When creating caches for new bridgeOS versions, there can be touchbar issues as we have to manually adjust the size of CacheData inside the plist. Those manually added bytes require lots of testing until we find the perfect configuration. There is probably a smarter method out there, but i didn't find it yet.
